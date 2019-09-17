@@ -1,0 +1,19 @@
+{
+  "name": "fyvar",
+  "version": "1.0.0",
+  "description": "an online freelance market place where you render your services to someone who requests for it, and get paid, according to your negotiation with the person.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/perfect090/Fyvar.git"
+  },
+  "author": "Kingsley Obioha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/perfect090/Fyvar/issues"
+  },
+  "homepage": "https://github.com/perfect090/Fyvar#readme"
+}
