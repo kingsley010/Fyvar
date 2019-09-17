@@ -29,52 +29,29 @@
                         </li>
                         <li class="nav-item"><a class="nav-link" href="#" id="nav-link-color">About</a></li>
                         <li class="nav-item"><a class="nav-link" href="#" id="nav-link-color">Services</a></li>
-                        <li class="nav-item"><a class="nav-link" href="signin.html" id="nav-link-color">Sign In</a></li>
+                        <li class="nav-item"><a class="nav-link" href="signup.html" id="nav-link-color">Sign Up</a></li>
                         </ul>    
 
             </div>    
         </nav>
 
-        <main>
-            <section id="main-section">
-                <div class="signup-form">
-                    <h1 style="color: black">Create an Account</h1>
-                    <form>
-                        <div class="signupline">
-                        <p>First Name</p>
-                        <input id="signup-form" type="text" name="name" placeholder="First Name" required>
-                        </div>
-                        <div class="signupline">
-                        <p>Last Name</p>
-                        <input id="signup-form" type="text" name="name" placeholder="Last Name" required>
-                        </div>
-                        <div class="clr"></div>
-                        <div class="clr"></div>
-                        <div class="signuplines">
-                            <p>Email</p>
-                            <input id="signup-form" type="text" name="email" required placeholder="Enter Email: .e.g. abc@gmail.com">
-                        </div>
-                        <div class="signuplines">
-                            <p>Username</p>
-                            <input id="signup-form" type="text" name="email" required placeholder="Enter Username">
-                        </div>
-                        <div class="signuplines">
-                        <p>Password</p>
-                        <input id="signup-form" type="password"  name="password" placeholder="password" required>
-                        </div>
-                        <div class="signuplines">
-                        <p>Confirm Password</p>
-                        <input id="signup-form" type="password"  name="password" placeholder="Confirm password" required>
-                        </div>
-                        <div class="clr"></div>
-                        <p id="legalnotice">By creating an account, you have agreed to our Terms and Conditions</p>
-                        <input type="submit" value="Create">
-                        <br>
-                    </form>
-                    <p id="signhave">Already have an account? <a href="signin.html">Sign In</a></p>
-                </div>
-            </section>
-        </main>
+        <main class="main-section">
+                <section class="container">
+                    <div class="login-form">
+                        <img src="images/avatar.png" class="avatar" alt="">
+                        <h1 style="color: black">Login</h1>
+                            <form>
+                                <p>Username</p>
+                                <input type="text" name="username" placeholder="Enter Username" required>
+                                <p>Password</p>
+                                <input type="password" name="password" placeholder="Enter password" required>
+                            </form>
+                            <input type="submit" name="submit" value="Login">
+                            <a href="#">Forgot password?</a>
+                            <p id="donthave">Don't have an account? <a href="signup.html" style="font-size: 18px;">Create one</a></p>
+                    </div>
+                </section>
+            </main>
        
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
