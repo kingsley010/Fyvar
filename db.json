@@ -1,0 +1,13 @@
+{
+    "register": [
+        {
+            "id": 1,
+            "firstname": "Kingsley",
+            "lastname": "Obioha",
+            "email": "obiohakingsley1@gmail.com",
+            "username": "Kaka",
+            "phonenumber": "08130259389",
+            "password": "abcdef"
+        }
+    ]
+}
