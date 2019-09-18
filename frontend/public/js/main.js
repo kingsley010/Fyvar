@@ -10,11 +10,17 @@ $(document).ready(function() {
         let profile = $('#profile').val();
 
         let error;
+        let errorr
         if(firstname === "" || lastname === "" || email === "" || username === "" || password === "" || cpassword === "") {
             error = true;
+            document.getElementById('error').innerHTML = "Please fill in all fields";
+        } 
+        if (password !== cpassword) {
+            errorr = true;
+            document.getElementById('error').innerHTML = "Your passwords do not match";
         }
 
-        if (!error) {
+        if (!error && !errorr) {
             data = {
                 firstname,
                 lastname,
