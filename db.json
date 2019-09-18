@@ -1,13 +1,21 @@
 {
-    "register": [
-        {
-            "id": 1,
-            "firstname": "Kingsley",
-            "lastname": "Obioha",
-            "email": "obiohakingsley1@gmail.com",
-            "username": "Kaka",
-            "phonenumber": "08130259389",
-            "password": "abcdef"
-        }
-    ]
+  "register": [
+    {
+      "id": 1,
+      "firstname": "Kingsley",
+      "lastname": "Obioha",
+      "email": "obiohakingsley1@gmail.com",
+      "username": "Kaka",
+      "password": "abcdef",
+      "profile": ""
+    },
+    {
+      "firstname": "a",
+      "lastname": "a",
+      "email": "a",
+      "username": "a",
+      "password": "a",
+      "id": 2
+    }
+  ]
 }

@@ -10,9 +10,9 @@
     <meta name="author" content="Dev-Cindy">
     <meta name="keywords" content="Decagon, Institute, BootCamp ">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="public/css/style.css">
+    <link href="public/css/style.css" rel="stylesheet" type="text/css">
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="public/css/bootstrap.min.css">
   </head>
   <body style="background-image: url('public/images/computer.jpg')">
         <nav class="navbar navbar-expand-lg navbar-light fixed-top">
@@ -42,35 +42,35 @@
                     <form>
                         <div class="signupline">
                         <p>First Name</p>
-                        <input id="signup-form" type="text" name="name" placeholder="First Name" required>
+                        <input id="firstname" class="register-form" type="text" name="name" placeholder="First Name" required>
                         </div>
                         <div class="signupline">
                         <p>Last Name</p>
-                        <input id="signup-form" type="text" name="name" placeholder="Last Name" required>
+                        <input id="lastname" class="register-form" type="text" name="name" placeholder="Last Name" required>
                         </div>
                         <div class="clr"></div>
                         <div class="clr"></div>
                         <div class="signuplines">
                             <p>Email</p>
-                            <input id="signup-form" type="text" name="email" required placeholder="Enter Email: .e.g. abc@gmail.com">
+                            <input id="email" class="register-form" type="email" name="email" placeholder="Enter Email: .e.g. abc@gmail.com" required >
                         </div>
                         <div class="signuplines">
                             <p>Username</p>
-                            <input id="signup-form" type="text" name="email" required placeholder="Enter Username">
+                            <input id="username" class="register-form" type="text" name="text" placeholder="Enter Username" required >
                         </div>
                         <div class="signuplines">
                         <p>Password</p>
-                        <input id="signup-form" type="password"  name="password" placeholder="password" required>
+                        <input id="password" class="register-form" type="password"  name="password" placeholder="password" required>
                         </div>
                         <div class="signuplines">
                         <p>Confirm Password</p>
-                        <input id="signup-form" type="password"  name="password" placeholder="Confirm password" required>
+                        <input id="cpassword" class="register-form" type="password"  name="password" placeholder="Confirm password" required>
                         </div>
                         <div class="clr"></div>
-                        <p id="legalnotice">By creating an account, you have agreed to our Terms and Conditions</p>
-                        <input type="submit" value="Create">
                         <br>
                     </form>
+                    <p id="legalnotice">By creating an account, you have agreed to our Terms and Conditions</p>
+                    <input type="submit" value="Create" id="signup-btn">
                     <p id="signhave">Already have an account? <a href="signin.html">Sign In</a></p>
                 </div>
             </section>
@@ -78,8 +78,9 @@
        
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="public/js/jquery.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script> -->
+    <script src="public/js/bootstrap.min.js"></script>
+    <script src="public/js/main.js"></script>
   </body>
 </html>

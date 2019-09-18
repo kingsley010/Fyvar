@@ -131,7 +131,7 @@ body{
 .signup-form label{
     font-weight: bold;
 }
-#signup-form{
+.register-form{
     border:none;
     border-bottom: 1px solid white;
     background: transparent;
