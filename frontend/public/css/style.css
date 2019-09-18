@@ -389,7 +389,6 @@ body{
 .navbar-light .navbar-brand {
     color:black;
     font-size: 25px;
-    text-transform: uppercase;
     font-weight: bold;
     letter-spacing:  2px;
 
@@ -418,3 +417,48 @@ body{
 ::-webkit-input-placeholder {
     color: black;
  }
+
+/* Logged in page */
+.jumbotron {
+    font-weight: bold;
+}
+
+#jumbotron {
+    background-color: rgb(40, 190, 103);
+    color: white;
+}
+
+.jumbotron h1 {
+    font-weight: bold;
+}
+
+#app-store-icon {
+    width: 200px;
+    margin-left: 540px;
+}
+
+#footer {
+    background-color: #c2ccc4;
+    padding-top: 150px;
+    margin-top: 50px;
+    text-align: center;
+    padding-bottom: 150px;
+}
+
+#navbar-logged {
+    background-image: url('../images/blurred2.jpg')
+}
+
+.card-body a {
+    color: black;
+    text-align: left;
+}
+
+.card-body a:hover {
+    text-decoration: none;
+}
+
+.card-title {
+    text-align: left;
+}
+
