@@ -5,8 +5,54 @@
       "firstname": "Kingsley",
       "lastname": "Obioha",
       "email": "obiohakingsley1@gmail.com",
-      "username": "Kaka",
-      "password": "abcdef"
+      "username": "kaka",
+      "password": "abcdef",
+      "profile": "Editing"
+    },
+    {
+      "id": 2,
+      "firstname": "Kingsley",
+      "lastname": "Obioha",
+      "email": "obiohakingsley1@gmail.com",
+      "username": "Kaks",
+      "password": "abcdef",
+      "profile": "Programming"
+    },
+    {
+      "id": 3,
+      "firstname": "Kingsley",
+      "lastname": "Obioha",
+      "email": "obiohakingsley1@gmail.com",
+      "username": "Mj",
+      "password": "abcdef",
+      "profile": "Programming"
+    },
+    {
+      "id": 4,
+      "firstname": "Kingsley",
+      "lastname": "Obioha",
+      "email": "obiohakingsley1@gmail.com",
+      "username": "Jessica",
+      "password": "abcdef",
+      "profile": "Programming"
+    },
+    {
+      "id": 5,
+      "firstname": "Kingsley",
+      "lastname": "Obioha",
+      "email": "obiohakingsley1@gmail.com",
+      "username": "Dumebi",
+      "password": "abcdef",
+      "profile": "Editing"
+    },
+    {
+      "id": 6,
+      "firstname": "Ijeoma",
+      "lastname": "Anulika",
+      "email": "ijeoma@gmail.com",
+      "username": "ijay",
+      "password": "12",
+      "profile": "kaks"
     }
   ]
 }
