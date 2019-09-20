@@ -103,7 +103,7 @@ $(document).ready(function() {
                     if ((e.username !== username) && (e.password !== password)) {
                         document.getElementById('error').innerHTML = "username or password is incorrect";
                     }
-                    else {
+                    else if ((e.username === username) && (e.password === password)) {
                         window.location.href = 'logged.html?'+username;   
                     }
                 });   
