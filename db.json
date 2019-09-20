@@ -53,6 +53,15 @@
       "username": "ijay",
       "password": "12",
       "profile": "kaks"
+    },
+    {
+      "id": 7,
+      "firstname": "hey",
+      "lastname": "hi",
+      "email": "hi",
+      "username": "hey",
+      "password": "12345",
+      "profile": "hi"
     }
   ]
 }

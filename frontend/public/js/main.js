@@ -38,6 +38,7 @@ $(document).ready(function() {
         let username = $('#username').val();
         let password = $('#password').val();
         let cpassword = $('#cpassword').val();
+        let profile = " ";
 
         let error;
         let errorr
@@ -56,7 +57,8 @@ $(document).ready(function() {
                 lastname,
                 email,
                 username,
-                password
+                password,
+                profile
             }
             $.ajax({
             url: 'http://localhost:3000/register',
