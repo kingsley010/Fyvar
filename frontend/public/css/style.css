@@ -1,0 +1,464 @@
+body{ 
+    margin: 0;
+    padding: 0;
+    background: url("");
+    background-size: cover;
+    font-family: sans-serif;
+    background-color: #efefef;
+}
+.clr{
+    clear: both;
+}.container{
+    width: 80%;
+}
+/*Navigational Menu Starts*/
+#navbar{
+    background-color: #2c9ff1;
+    color: white;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+}
+#navbar ul{
+    padding: 0;
+    list-style: none;
+}
+#navbar li{
+    display: inline;
+}
+/*login starts here*/
+
+.login-form{
+    margin: auto;
+    width: 320px;
+    height: 420px;
+    background: rgba(36, 36, 36, 0.452);
+    color: white;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding-top: 70px;
+    padding-left: 30px;
+    padding-bottom: 70px;
+    padding-right: 30px; 
+}
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    position: absolute;
+    top:-50px;
+    left: calc(50% - 50px);   
+}
+
+.login-form h1 {
+    margin:0;
+    padding: 0, 0, 20px;
+    text-align: center;
+    font-size: 22px;
+}
+.login-form p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+.login-form input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.login-form input[type="text"], input[type="password"]{
+    border:none;
+    border-bottom: 1px solid white;
+    background: transparent;
+    outline: none;
+    height : 40px;
+    color: white;
+    font-size: 16px;
+}
+.login-form input[type="submit"]{
+    border: none;
+    outline:none;
+    background: #2c9ff1;
+    color: white;
+    font-size: 18px;
+    border-radius: 20px;  
+}
+.login-form input[type="submit"]:hover{
+    cursor: pointer;
+    color: #2c9ff1;
+    background: white;
+    border: 1px solid #2c9ff1;;
+}
+.login-form a{
+    font-size: 14px;
+    color: white;
+    text-decoration: none
+}
+.login-form a:hover{
+    color: #2c9ff1;
+    text-decoration: none;
+}
+#donthave{
+    padding-top:10px;
+    font-weight: normal;
+}
+#donthave a{
+    cursor: pointer;
+}
+/*login ends here*/
+
+/*signup starts here*/
+.signup-form{
+    max-width: 70%;
+    border-radius: 5px;
+    margin: auto;
+    background: rgba(36, 36, 36, 0.452);
+    box-sizing: border-box;
+    padding: 40px;
+    color: white;
+    margin-bottom: 50px;
+    margin-top: 80px; 
+}
+.signup-form h1{
+    text-align: center;
+    margin:0;
+    padding-bottom: 20px;
+    font-size: 22px;
+}
+.signup-form label{
+    font-weight: bold;
+}
+.register-form{
+    border:none;
+    border-bottom: 1px solid white;
+    background: transparent;
+    outline: none;
+    height : 40px;
+    color: white;
+    font-size: 16px;
+    width: 100%;
+}
+#origin{
+    border:none;
+    border-bottom: 1px solid white;
+    background: transparent;
+    outline: none;
+    height : 40px;
+    color: white;
+    font-size: 16px;
+    width: 100%;
+}
+.signup-form input[type="date"]{
+    border:none;
+    border: 1px solid white;
+    border-radius:5px;
+    text-align: center;
+    background: transparent;
+    outline: none;
+    height : 40px;
+    color: white;
+    font-size:16px;
+    
+}
+.signup-form select{
+    border:none;
+    border: 1px solid white;
+    border-radius:5px;
+    text-align: center;
+    background: transparent;
+    outline: none;
+    height : 40px;
+    color: white;
+    font-size:16px;  
+}
+.signup-form option{
+    color: black;
+}
+.signup-form p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+.signup-form input{
+    margin-bottom: 20px;
+}
+.signuplines{
+    margin: 5px;
+    float:left;
+    width: calc(50% - 10px);
+    box-sizing: border-box;
+}
+.signupline{
+    margin: 5px;
+    float:left;
+    width: calc(50% - 10px);
+    box-sizing: border-box;
+}
+.origin{
+    margin: 5px;
+    float:left;
+    width: calc(25% - 10px);
+    box-sizing: border-box;
+}
+.signup-form input[type="submit"]{
+    margin-left: 35%;
+    border: none;
+    outline:none;
+    background: #2c9ff1;
+    color: white;
+    font-size: 18px;
+    border-radius: 20px;
+    width: 30%; 
+    margin-bottom: 10px;
+}
+.signup-form input[type="submit"]:hover{
+    cursor: pointer;
+    color: #2c9ff1;
+    background: white;
+    border: 1px solid #2c9ff1;
+}
+.signup-form a{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+.signup-form a:hover {
+    text-decoration: none;
+    color: #2c9ff1;
+    cursor: pointer;
+}
+#signhave{
+    text-align: center;
+    font-weight: normal;
+}
+#legalnotice{
+    margin:10px;
+    text-align: center;
+    font-weight: normal;
+}
+@media(max-width:1100px){
+    .origin{
+        float: none;
+        margin: 5px;
+        float:left;
+        width: calc(50% - 10px);
+        box-sizing: border-box;
+    }
+}
+@media(max-width: 800px){
+    .signupline{
+        width:100%;
+        float: none
+    }
+}
+@media(max-width:600px){
+    .signuplines{
+        width:100%;
+        float: none;
+    }
+    
+    .origin{
+        width: 55%;
+        float: none;
+    }
+    .signup-form h1{
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 18px;
+    }
+    .signup-form{
+        max-width: 80%;
+        border-radius: 3px;
+        margin: auto;
+        background: rgba(36, 36, 36, 0.452);
+        box-sizing: border-box;
+        padding: 20px;
+        color: white;
+        margin-top: 20px;
+        margin-bottom: 20px; 
+    }
+}
+
+
+#imga {
+    min-height: 100%;
+    min-width: 1024px;
+      
+    /* Set up proportionate scaling */
+    width: auto;
+    height: auto;
+      
+    /* Set up positioning */
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+
+#imgb {
+    min-height: 100%;
+    min-width: 1024px;
+      
+    /* Set up proportionate scaling */
+    width: 100%;
+    height: auto;
+      
+    /* Set up positioning */
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+#imgc {
+    min-height: 100%;
+    min-width: 1024px;
+      
+    /* Set up proportionate scaling */
+    width: 100%;
+    height: auto;
+      
+    /* Set up positioning */
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.carousel-indicators .active {
+    background-color: green;
+}
+
+/* .carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  border: 1px solid black;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: red;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: red;
+} */
+
+.carousel-control-next,
+.carousel-control-prev {
+    filter: invert(100%);
+}
+
+
+.carousel-item {
+    height: 100vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover ; 
+    background-size: cover;
+}
+
+.carousel-caption {
+    top: 270px;
+}
+
+.carousel-caption h5 {
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 25px;
+}
+
+.carousel-caption p {
+    width: 75%;
+    margin: auto;
+    font-size: 20px;
+    line-height: 1.9;
+}
+
+.navbar-light .navbar-brand {
+    color:black;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing:  2px;
+
+}
+
+#navbrand-bar-color {
+    color:black;
+}
+
+#nav-link-color {
+    color: black;
+    font-weight: bold;
+}
+
+#navbrand-bar-color:hover {
+    color: #008aff;
+    transition: all 2s ease-in;
+
+}
+
+#nav-link-color:hover {
+    color: #008aff;
+    transition: all 2s ease-in-out;
+}
+
+::-webkit-input-placeholder {
+    color: black;
+ }
+
+/* Logged in page */
+.jumbotron {
+    font-weight: bold;
+}
+
+#jumbotron {
+    background-color: rgb(40, 190, 103);
+    color: white;
+}
+
+.jumbotron h1 {
+    font-weight: bold;
+}
+
+#app-store-icon {
+    width: 200px;
+    margin-left: 540px;
+}
+
+#footer {
+    background-color: #c2ccc4;
+    padding-top: 150px;
+    margin-top: 50px;
+    text-align: center;
+    padding-bottom: 150px;
+}
+
+#navbar-logged {
+    background-image: url('../images/blurred2.jpg')
+}
+
+.card-body a {
+    color: black;
+    text-align: left;
+}
+
+.card-body a:hover {
+    text-decoration: none;
+}
+
+.card-title {
+    text-align: left;
+}
+

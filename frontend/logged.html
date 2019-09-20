@@ -1,0 +1,318 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title></title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="UTF-8">
+    <meta name="description" content="My first project">
+    <meta name="author" content="Dev-Cindy">
+    <meta name="keywords" content="Decagon, Institute, BootCamp ">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="public/css/style.css" rel="stylesheet" type="text/css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="public/css/bootstrap.min.css">
+</head>
+  <body data-spy="scroll" data-target="#navbar" data-offset="150">
+    
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="navbar-logged">
+                <div class="container">
+                        <a class="navbar-brand" href="logged.html" id="navbrand-bar-color">Fyvar</a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+    
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav ml-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="logged.html" id="nav-link-color"> Home <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item"><a class="nav-link" href="#" id="nav-link-color">About</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#" id="nav-link-color">Services</a></li>
+                            <li class="nav-item"><a class="nav-link" href="../index.html" id="nav-link-color">Log out</a></li>
+                            </ul>    
+    
+                </div>    
+        </nav>
+
+
+          <div class="jumbotron" id="jumbotron">
+                <h1 class="display-4">Online market place</h1>
+                <p class="lead" id="text" style="font-weight: bold;">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+                <hr class="my-4">
+                <p id="text">It uses utility classes for typography and spacing to space content out within the larger container.</p><br>
+
+
+
+                <!-- View profiles modal-->
+                <button class="btn btn-primary" data-toggle="modal" id="view-profiles" data-target="#mypreview"> View profiles </button>
+                <div class="modal fade" id="mypreview"> 
+                        <div class="modal-dialog"> 
+                            <div class="modal-content"> 
+                                <div class="modal-header"> 
+                                    <h3 style="color: black;"> Profiles </h3>
+                                </div>
+                                
+                             <div class="modal-body" id="mypreviews">
+                                <!-- <div class="card-deck"> -->
+                                    <!-- <div class="card"> -->
+                                        <!-- <img src="public/images/woman1.jpg" class="card-img-top" alt="..." style="height: 100px; width: 136px;">
+                                        <div class="card-body">
+                    
+                                        </div> -->
+                                    <!-- </div> -->
+                                        <!-- <div class="card">
+                                        <img src="public/images/woman2.jpg" class="card-img-top" alt="..." style="height: 100px; width: 136px;">
+                                        <div class="card-body">
+                                            <p class="card-title" style="color: black;">Social Media</p>
+                                            <p class="card-title" style="color: black; font-weight: 400">Logo Design</p>
+                                        </div>
+                                        </div> -->
+                                        <!-- <div class="card">
+                                        <img src="public/images/woman3.jpg" class="card-img-top" alt="..." style="height: 100px; width: 136px;">
+                                        <div class="card-body">
+                                            <p class="card-title" style="color: black;">Illustrations</p>
+                                            <p class="card-title" style="color: black; font-weight: 400">Logo Design</p>
+                                        </div>
+                                        </div> -->
+                                <!-- </div> -->
+
+                                <!-- <div class="card-deck">
+                                        <div class="card">
+                                        <img src="public/images/man1.jpg" class="card-img-top" alt="..." style="height: 100px; width: 136px;">
+                                        <div class="card-body">
+                                            <p class="card-title" style="color: black;">Data Entry</p>
+                                            <p class="card-title" style="color: black; font-weight: 400">Logo Design</p>
+                                        </div>
+                                        </div>
+                                        <div class="card">
+                                        <img src="public/images/man2.jpg" class="card-img-top" alt="..." style="height: 100px; width: 136px;">
+                                        <div class="card-body">
+                                            <p class="card-title" style="color: black;">WhiteBoard</p>
+                                            <p class="card-title" style="color: black; font-weight: 400">Logo Design</p>
+                                        </div>
+                                        </div>
+                                        <div class="card">
+                                        <img src="public/images/man3.jpg" class="card-img-top" alt="..." style="height: 100px; width: 136px;">
+                                        <div class="card-body">
+                                            <p class="card-title" style="color: black;">Showcase Your Story</p>
+                                            <p class="card-title" style="color: black; font-weight: 400">Logo Design</p>
+                                        </div>
+                                        </div>
+                                    </div> -->
+                                </div>
+
+                                <div class="modal-footer"> 
+                                    <button type="button" class="btn btn-primary" data-dismiss="modal"> Close </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+
+
+                <!-- create profile modal-->
+                <button class="btn btn-primary" data-toggle="modal" data-target="#mymodal"> Create profile </button>
+                <div class="modal fade" id="mymodal"> 
+                    <div class="modal-dialog"> 
+                        <div class="modal-content"> 
+                            <div class="modal-header"> 
+                                <h3 style="color: black;"> What services can you offer? </h3>
+                            </div>
+                            <div class="modal-body"> 
+                                <!-- <div id="error" style="display: block; background-color: rgb(231, 75, 75); border-radius: 10px; text-align: center;"></div><br> -->
+                                <div> 
+                                        <input type="text" class="form-control" id="profile" name="profile" placeholder="e.g. writing, editing, programming etc" required>
+                                </div>                                          
+                            </div>
+                            <div class="modal-footer"> 
+                                <button type="button" id="profile-btn" class="btn btn-primary" data-dismiss="modal"> Submit </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Your profile modal-->
+                <button class="btn btn-primary" data-toggle="modal" data-target="#myprofile" id="view"> Your profile </button>
+                <div class="modal fade" id="myprofile"> 
+                        <div class="modal-dialog"> 
+                            <div class="modal-content" style="background-color: rgb(40, 190, 103); align-content: center"> 
+                                <div class="modal-header"> 
+                                    <h3 style="color: black;"> Your Profile </h3>
+                                </div>
+                                
+                               <div class="modal-body"> 
+                                <div class="card" style="width: 18rem;">
+                                        <img src="public/images/man3.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                          <h5 class="card-title" style="color: black;" id="view-name"></h5>
+                                          <p class="card-text" style="color: black;" id="view-profile"></p>
+
+                                          <button class="btn btn-primary" style="color: white;" data-toggle="modal" data-target="#myedit">Edit</button>
+                                          <div class="modal fade" id="myedit"> 
+                                                <div class="modal-dialog"> 
+                                                    <div class="modal-content"> 
+                                                        <div class="modal-header"> 
+                                                            <h3 style="color: black;"> Edit your profile </h3>
+                                                        </div>
+                                                        <div class="modal-body"> 
+                                                            <!-- <div id="error" style="display: block; background-color: rgb(231, 75, 75); border-radius: 10px; text-align: center;"></div><br> -->
+                                                            <div> 
+                                                                    <input type="text" class="form-control" id="edit-profile" name="edit-profile" placeholder="e.g. writing, editing, programming etc" required>
+                                                            </div>                                          
+                                                        </div>
+                                                        <div class="modal-footer"> 
+                                                            <button type="button" id="edit-btn" class="btn btn-primary" data-dismiss="modal"> Submit </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                          <a href="" class="btn btn-primary" style="color: white;" id="delete-btn">Delete</a>
+                                        </div>
+                                </div>
+                               </div> 
+
+                                <div class="modal-footer"> 
+                                    <button type="button" class="btn btn-primary" data-dismiss="modal"> Close </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+            </div>
+
+          <div class="container">
+              <div class="row" id="app-summary"> 
+                <h1> </h1>
+                <p class="lead"> </p>
+              </div>
+          </div>
+
+
+          <div class="container" id="about"> 
+            <div class="card-deck">
+                    <div class="card">
+                    <img src="public/images/man1.jpg" class="card-img-top" alt="..." style="height: 233px;">
+                    <div class="card-body">
+                        <h5 class="card-title">Logo Design</h5>
+                        <p class="card-text">Build Your Brand</p>
+                        <p class="card-text"><small class="text-muted"></small></p>
+                    </div>
+                    </div>
+                    <div class="card">
+                    <img src="public/images/woman2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Social Media</h5>
+                        <p class="card-text">Reach More Customers</p>
+                        <p class="card-text"><small class="text-muted"></small></p>
+                    </div>
+                    </div>
+                    <div class="card">
+                    <img src="public/images/man3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Illustrations</h5>
+                        <p class="card-text">Colour your Dreams </p>
+                        <p class="card-text"><small class="text-muted"></small></p>
+                    </div>
+                    </div>
+            </div>
+            <div class="card-deck">
+                <div class="card">
+                <img src="public/images/woman1.jpg" class="card-img-top" alt="..." style="height: 300px;">
+                <div class="card-body">
+                    <h5 class="card-title">Data Entry</h5>
+                    <p class="card-text">Learn Your Business</p>
+                    <p class="card-text"><small class="text-muted"></small></p>
+                </div>
+                </div>
+                <div class="card">
+                <img src="public/images/man2.jpg" class="card-img-top" alt="..." style="height: 300px;">
+                <div class="card-body">
+                    <h5 class="card-title">WhiteBoard</h5>
+                    <p class="card-text">Engage Your Audience</p>
+                    <p class="card-text"><small class="text-muted"></small></p>
+                </div>
+                </div>
+                <div class="card">
+                <img src="public/images/woman3.jpg" class="card-img-top" alt="..." style="height: 300px;">
+                <div class="card-body">
+                    <h5 class="card-title">Showcase Your Story</h5>
+                    <p class="card-text">Book Covers</p>
+                    <p class="card-text"><small class="text-muted"></small></p>
+                </div>
+                </div>
+            </div>
+          </div>
+
+              <div id="footer">
+                <div class="row"> 
+                        <div class="card-deck" style="margin-left: 200px;">
+                                <div class="card" >
+                                  <div class="card-body">
+                                    <h5 class="card-title">Categories</h5>
+                                    <a href="#"><p class="card-text">Graphics & Design</p></a>
+                                    <a href="#"><p class="card-text">Programming & Tech</p></a>
+                                    <a href="#"><p class="card-text">Writing & Translation</p></a>
+                                    <a href="#"><p class="card-text">Video & Animation</p></a>
+                                  </div>
+                                </div>
+                                <div class="card">
+                                  <div class="card-body">
+                                    <h5 class="card-title">Support</h5>
+                                    <a href="#"><p class="card-text">Help & Errors</p></a>
+                                    <a href="#"><p class="card-text">Trust & Safety</p></a>
+                                    <a href="#"><p class="card-text">Selling on Fyvar</p></a>
+                                    <a href="#"><p class="card-text">Selling on Fyvar</p></a>
+                                  </div>
+                                </div>
+                                <div class="card">
+                                  <div class="card-body">
+                                    <h5 class="card-title">Communities</h5>
+                                    <a href="#"><p class="card-text">Events</p></a>
+                                    <a href="#"><p class="card-text">Blogs</p></a>
+                                    <a href="#"><p class="card-text">Forum</p></a>
+                                    <a href="#"><p class="card-text">Podcasts</p></a>
+                                  </div>
+                                </div>
+                                <div class="card">
+                                        <div class="card-body">
+                                          <h5 class="card-title">About</h5>
+                                          <a href="#"><p class="card-text">Careers</p></a>
+                                          <a href="#"><p class="card-text">Press & news</p></a>
+                                          <a href="#"><p class="card-text">Partnerships</p></a>
+                                          <a href="#"><p class="card-text">Privacy Policy</p></a>
+                                        </div>
+                                </div>
+                                <div class="card">
+                                        <div class="card-body">
+                                          <h5 class="card-title">More on Fyvar</h5>
+                                          <a href="#"><p class="card-text">Fyvar Pro</p></a>
+                                          <a href="#"><p class="card-text">Fyvar Studios</p></a>
+                                          <a href="#"><p class="card-text">Get Inspired</p></a>
+                                          <a href="#"><p class="card-text">Fyvar Estate</p></a>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+              </div>
+        
+       
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="public/js/jquery.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script> -->
+    <script src="public/js/bootstrap.min.js"></script>
+    <script src="public/js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title></title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="UTF-8">
+    <meta name="description" content="My first project">
+    <meta name="author" content="Dev-Cindy">
+    <meta name="keywords" content="Decagon, Institute, BootCamp ">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="public/css/style.css" rel="stylesheet" type="text/css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="public/css/bootstrap.min.css">
+  </head>
+  <body style="background-image: url('public/images/computer.jpg')">
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+            <div class="container">
+                    <a class="navbar-brand" href="../index.html" id="navbrand-bar-color">Fyvar</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="../index.html" id="nav-link-color">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="#" id="nav-link-color">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#" id="nav-link-color">Services</a></li>
+                        <li class="nav-item"><a class="nav-link" href="signin.html" id="nav-link-color">Sign In</a></li>
+                        </ul>    
+
+            </div>    
+        </nav>
+
+        <main>
+            <section id="main-section">
+                <div class="signup-form">
+                    <div id="error" style="display: block; background-color: rgb(231, 75, 75); width: 50%; border-radius: 10px; text-align: center;">  </div><br>
+                    <h1 style="color: black">Create an Account</h1>
+                    <form>
+                        <div class="signupline">
+                        <p>First Name</p>
+                        <input id="firstname" class="register-form" type="text" name="name" placeholder="First Name" required>
+                        </div>
+                        <div class="signupline">
+                        <p>Last Name</p>
+                        <input id="lastname" class="register-form" type="text" name="name" placeholder="Last Name" required>
+                        </div>
+                        <div class="clr"></div>
+                        <div class="clr"></div>
+                        <div class="signuplines">
+                            <p>Email</p>
+                            <input id="email" class="register-form" type="email" name="email" placeholder="Enter Email: .e.g. abc@gmail.com" required >
+                        </div>
+                        <div class="signuplines">
+                            <p>Username</p>
+                            <input id="username" class="register-form" type="text" name="text" placeholder="Enter Username" required >
+                        </div>
+                        <div class="signuplines">
+                        <p>Password</p>
+                        <input id="password" class="register-form" type="password"  name="password" placeholder="password" required>
+                        </div>
+                        <div class="signuplines">
+                        <p>Confirm Password</p>
+                        <input id="cpassword" class="register-form" type="password"  name="password" placeholder="Confirm password" required>
+                        </div>
+                        <div class="clr"></div>
+                        <br>
+                    </form>
+                    <p id="legalnotice">By creating an account, you have agreed to our Terms and Conditions</p>
+                    <input type="submit" value="Create" id="signup-btn">
+                    <p id="signhave">Already have an account? <a href="signin.html">Sign In</a></p>
+                </div>
+            </section>
+        </main>
+       
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="public/js/jquery.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script> -->
+    <script src="public/js/bootstrap.min.js"></script>
+    <script src="public/js/main.js"></script>
+  </body>
+</html>
