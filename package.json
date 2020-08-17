@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/perfect090/Fyvar.git"
+    "url": "git+https://github.com/kingsley010/Fyvar.git"
   },
   "author": "Kingsley Obioha",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/perfect090/Fyvar/issues"
+    "url": "https://github.com/kingsley010/Fyvar/issues"
   },
-  "homepage": "https://github.com/perfect090/Fyvar#readme"
+  "homepage": "https://github.com/kingsley010/Fyvar#readme"
 }
